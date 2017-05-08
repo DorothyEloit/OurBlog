@@ -14,7 +14,7 @@ public class DBUtil {
         }catch(Exception e){}
         Connection conn=null;
         try{
-            String uri="jdbc:mysql://127.0.0.1:3306/selfblog?user=root&password=1234567&useUnicode=true&characterEncoding=utf-8";
+            String uri="jdbc:mysql://127.0.0.1:3306/selfblog?user=root&password=123456&useUnicode=true&characterEncoding=utf-8";
             conn= DriverManager.getConnection(uri);
             return conn;
         }catch(SQLException e){
