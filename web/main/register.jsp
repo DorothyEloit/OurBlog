@@ -48,7 +48,7 @@
         <div class="form-group">
             <div class="col-sm-offset-4 col-sm-8">
                 <input type="submit" name="submit" value="注册" class="btn btn-default">
-                <button class="btn btn-default" style="background:rgba(255,255,255,0.3);"><a href="index.jsp" style="text-decoration:none;color:#FFFFFF;">返回</a></button>
+                <button class="btn btn-default" style="background:rgba(255,255,255,0.3);"><a href="../index.jsp" style="text-decoration:none;color:#FFFFFF;">返回</a></button>
             </div>
         </div>
     </form>
