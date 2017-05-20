@@ -33,7 +33,7 @@ function moveTop(elem) {
 			clearInterval(i);
 			$("#menuBottom").fadeOut(600);
 			setTimeout(function() {
-				window.location.href="main/contactUs.jsp";
+				window.location.href="./main/contactUs.jsp";
 			},700);
 		}
 	},45);
@@ -61,7 +61,7 @@ function moveBottom(elem) {
 			clearInterval(i);
 			$("#menuTop").fadeOut(600);
 			setTimeout(function() {
-				window.location.href="main/userInf.jsp";
+				window.location.href="./main/userInf.jsp";
 			},700);
 		}
 	},45);
@@ -83,7 +83,7 @@ function moveRight(elem) {
 			clearInterval(i);
 			$("#menuLeft").fadeOut(600);
 			setTimeout(function() {
-				window.location.href="main/readBlog.jsp"
+				window.location.href="./main/readBlog.jsp"
 			},700);
 		}
 	},45);
@@ -108,7 +108,7 @@ function moveLeft(elem) {
 			clearInterval(i);
 			$("#menuRight").fadeOut(600);
 			setTimeout(function() {
-				window.location.href="main/writeBlog.jsp"
+				window.location.href="./main/writeBlog.jsp"
 			},700);
 		}
 	},45);

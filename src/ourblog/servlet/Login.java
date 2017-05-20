@@ -15,7 +15,7 @@ public class Login extends HttpServlet{
 		try {
 			User result = userService.doLogin(username, password);
 			if(result!=null){
-				request.getRequestDispatcher("/main/msg.jsp").forward(request,response);
+				request.getRequestDispatcher("/").forward(request,response);
 			}else{
 				request.getRequestDispatcher("/main/err.jsp").forward(request,response);
 			}
