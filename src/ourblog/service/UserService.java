@@ -127,4 +127,33 @@ public class UserService {
         }
     }
 
+    public User getUserInfo() throws SQLException {
+        User result = null;
+        Connection conn = DBUtil.getPoolConnection();
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+        String sql="";
+        sql="SELECT * FROM userinf WHERE userId=1";
+        try{
+            ps = conn.prepareStatement(sql);
+            rs= ps.executeQuery();
+            System.out.print(sql);
+            if(rs.next()){
+                result=new User();
+                result.setUserName(rs.getString("userName"));
+                result.setUserSex(rs.getString("userSex"));
+                result.setUserAge(rs.getString("userAge"));
+                result.setEmail(rs.getString("email"));
+                result.setTelephone(rs.getString("telephone"));
+                result.setHobby(rs.getString("hobby"));
+                result.setMessage(rs.getString("message"));
+            }
+            return result;
+        }finally {
+            rs.close();
+            ps.close();
+            conn.close();
+        }
+    }
+
 }

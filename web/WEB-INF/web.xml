@@ -19,4 +19,12 @@
         <servlet-name>saveBlog</servlet-name>
         <url-pattern>/saveBlog</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>getUserInfo</servlet-name>
+        <servlet-class>ourblog.servlet.UserInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getUserInfo</servlet-name>
+        <url-pattern>/getUserInfo</url-pattern>
+    </servlet-mapping>
 </web-app>

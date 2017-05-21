@@ -61,7 +61,7 @@ function moveBottom(elem) {
 			clearInterval(i);
 			$("#menuTop").fadeOut(600);
 			setTimeout(function() {
-				window.location.href="./main/userInf.jsp";
+				window.location.href="/ourblog/getUserInfo";
 			},700);
 		}
 	},45);
