@@ -11,10 +11,14 @@ public class Login extends HttpServlet{
 		request.setCharacterEncoding("utf-8");
 		String username=request.getParameter("username");
 		String password=request.getParameter("password");
+		User user = new User();
+		user.setUserName(username);
+		user.setPassword(password);
 		UserService userService=new UserService();
 		try {
 			User result = userService.doLogin(username, password);
 			if(result!=null){
+				request.getSession().setAttribute("USER",user);
 				request.getRequestDispatcher("/").forward(request,response);
 			}else{
 				request.getRequestDispatcher("/main/err.jsp").forward(request,response);

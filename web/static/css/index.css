@@ -199,3 +199,12 @@ a:hover {
 	z-index: 10;
 	cursor: pointer;
 }
+
+#logoutClick {
+	color:white;
+	left:96%;
+	top:2%;
+	position: absolute;
+	z-index: 10;
+	cursor: pointer;
+}
