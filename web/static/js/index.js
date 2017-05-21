@@ -33,7 +33,7 @@ function moveTop(elem) {
 			clearInterval(i);
 			$("#menuBottom").fadeOut(600);
 			setTimeout(function() {
-				window.location.href="./main/contactUs.jsp";
+				window.location.href="../../main/manageBlog.jsp";
 			},700);
 		}
 	},45);
