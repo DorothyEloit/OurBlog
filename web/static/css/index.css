@@ -190,3 +190,35 @@ a:hover {
 	text-decoration:none;
 	color:#FFFFFF;
 }
+
+#perClass {
+	left:70%;
+	top:90%;
+	z-index:5;
+	position: absolute;
+	height:34px;
+	background:rgba(255,255,255,0.3);
+	color:#ffffff;
+	border-radius: 3px;
+}
+#perClass option {
+	background:rgba(255,255,255,0.3);
+	color:#ffffff;
+}
+
+#blogClass {
+	left:80%;
+	top:90%;
+	z-index:5;
+	position: absolute;
+}
+
+.blogClassBtn {
+	background:rgba(255,255,255,0.3);
+	color:#ffffff;
+}
+
+.dropClassMenu {
+	max-height: 80px;
+	overflow: auto;
+}

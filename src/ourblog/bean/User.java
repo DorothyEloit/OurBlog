@@ -1,15 +1,15 @@
 package ourblog.bean;
 public class User{
-	String userName;
-	String userSex;
-	String userAge;
-	String userIdentify;
-	String email;
-	String telephone;
-	String hobby;
-	String message;
-	String createTime;
-	String password;
+	private String userName;
+	private String userSex;
+	private String userAge;
+	private String userIdentify;
+	private String email;
+	private String telephone;
+	private String hobby;
+	private String message;
+	private String createTime;
+	private String password;
 
 	public String getUserName() {
 		return userName;
