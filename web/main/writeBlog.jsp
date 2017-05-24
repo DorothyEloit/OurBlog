@@ -7,8 +7,8 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ include file="../include/top.jsp" %>
-<a href="<%=ctxpath%>/index.jsp"><div id="returnDiv">返回</div></a>
 <div class="infoDiv">
+    <a href="<%=ctxpath%>/index.jsp"><div id="returnDiv">返回</div></a>
     <form class="form-horizontal" name="saveBlog" id="saveBlog" action="<%=ctxpath%>/saveBlog" method="post">
         <div class="form-group">
     <input type="text" class="textTitle" placeholder=" 请输入标题" name="title">

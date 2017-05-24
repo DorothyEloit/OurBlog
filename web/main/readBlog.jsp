@@ -7,7 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ include file="../include/top.jsp" %>
-<a href="<%=ctxpath%>/index.jsp"><div id="returnDiv">返回</div></a>
 <div class="infoDiv">
+    <a href="<%=ctxpath%>/index.jsp"><div id="returnDiv">返回</div></a>
 </div>
 <%@ include file="../include/bottom.jsp" %>

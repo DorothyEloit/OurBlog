@@ -7,8 +7,8 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ include file="../include/top.jsp" %>
-<a href="<%=ctxpath%>/index.jsp"><div id="returnDiv">返回</div></a>
 <div class="infoDiv">
+    <a href="<%=ctxpath%>/index.jsp"><div id="returnDiv">返回</div></a>
     <form style="padding: 40px;line-height: 40px;" method="get" action="/getUserInfo">
         <%
             User master = (User)session.getAttribute("MASTER");
